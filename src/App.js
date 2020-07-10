@@ -5,7 +5,6 @@ import './App.css';
 function App() {
   return (
     <div>
-      <h1>Hello Survey</h1>
       <First />
     </div>
   );

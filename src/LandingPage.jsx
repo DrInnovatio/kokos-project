@@ -1,8 +1,14 @@
 import React from 'react';
 import { Button } from '@material-ui/core';
+import PrimarySearchAppBar from './header/Header'
 
 function First() {
-  return <Button variant="contained" color="primary">Hello World</Button>;
+  return (
+    <div>
+      <PrimarySearchAppBar />
+      <Button/>
+    </div>
+  )
 }
 
 export default First;
